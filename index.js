@@ -17,5 +17,11 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeli) {
   if (katzDeli.length == []) {
     return "The line is currently empty."
+  } else {
+    for (let i = 0; i < katzDeli.length; i++) {
+      let peopleInLine = katzDeli[i];
+      katzDeli.push(peopleInLine);
+    }
+  return katzDeli;
   }
 }
