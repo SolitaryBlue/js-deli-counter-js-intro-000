@@ -20,11 +20,10 @@ function currentLine(katzDeli) {
   } else {
     for (let i = 0; i < katzDeli.length; i++) {
       let peopleInLine = [];
-      peopleInLine.push(`The line is currently: ${katzDeli[i]}.`)
+      peopleInLine.push(katzDeli[i])
     }
     return peopleInLine;
   }
-
 
 
 }
