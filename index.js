@@ -22,6 +22,6 @@ function currentLine(katzDeli) {
       let peopleInLine = katzDeli[i];
       katzDeli.push(peopleInLine);
     }
-  return katzDeli;
+    return "A string";
   }
 }
