@@ -22,7 +22,7 @@ function currentLine(katzDeli) {
     for (let i = 0; i < katzDeli.length; i++) {
       peopleInLine.push(katzDeli[i])
     }
-    return `The line is currently: ${katzDeli[i]}. ${peopleInLine}`;
+    return `The line is currently: ${katzDeli.length}. ${peopleInLine}`;
   }
 
 
